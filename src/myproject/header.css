@@ -1,0 +1,31 @@
+.header{
+    display: flex;
+    align-items: center;
+    background: aliceblue;
+    padding-left: 10px;
+ 
+}
+.logo-section{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+}
+.date-section {
+    display: grid;
+    width: 250px;
+    grid-template-columns: 30% 10% 10% auto;
+    font-size: 18px;
+    align-items: center;
+}
+.today {
+    background: transparent;
+    border: 1px solid blue;
+    padding: 6px 0px;
+    font-size: 16px;
+    margin-right: 10px;
+    border-radius: 7px;
+    outline: none
+
+}
