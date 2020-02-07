@@ -29,3 +29,22 @@
     outline: none
 
 }
+/* //////////////////// */
+.createbtn{
+    background: beige;
+    width: 110px;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,0.14),
+     0 2px 1px -1px rgba(0,0,0,0.12),
+      0 1px 3px 0 rgba(0,0,0,0.2);
+margin-top: 10px;
+margin-left: 10px;      
+
+}
+.createbtn:hover{
+    box-shadow: 0 5px 5px -3px rgba(0,0,0,0.2), 0 8px 10px 1px rgba(0,0,0,0.14), 0 3px 14px 2px rgba(0,0,0,0.12);
+
+}
