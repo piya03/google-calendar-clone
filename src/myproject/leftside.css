@@ -1,0 +1,12 @@
+.body-container{
+    display: grid;
+    background-color: #f7f1f3;
+    grid-template-columns: 25% 75%;
+}
+.leftside{
+    background-color: #3970a1;
+}
+.gmt-time {
+    position: relative;
+    top: 30px;
+}
