@@ -4,6 +4,14 @@ import './header.css'
 class Header extends React.Component {
     constructor(props) {
         super(props);
+        this.state = {
+            value : 'week'
+        }
+    }
+    handleChange = (e) => {
+        this.setState({
+            value : e.target.value
+        })
     }
     render() {
         return (
@@ -18,6 +26,14 @@ class Header extends React.Component {
                     <div className='backward'><i class="fa fa-angle-left"></i></div>
                     <div className='forward'><i class="fa fa-angle-right"></i></div>
                     <div className='year'> February 2020</div>
+                </div>
+                <div className='select-section'>
+                <select value={this.state.value} onChange={this.handleChange}>
+                    <option value="day">Day</option>
+                    <option value="week">Week</option>
+                    <option value="month">Month</option>
+                    <option value="year">Year</option>
+                </select>
                 </div>
             </div>
 
