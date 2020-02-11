@@ -1,4 +1,5 @@
 import React from "react";
+import Cell from './cell.js'
 import "./rightside.css"
 class RightSide extends React.Component {
   constructor(props) {
@@ -41,7 +42,36 @@ class RightSide extends React.Component {
 
           </div>
         </div>
+        <div className='cell-container'>
+          <Cell />
+          <Cell />
+          <Cell />
+          <Cell />
+          <Cell />
+          <Cell />
+          <Cell />
+        </div>
+        <div className='cell-container'>
+          <Cell />
+          <Cell />
+          <Cell />
+          <Cell />
+          <Cell />
+          <Cell />
+          <Cell />
+        </div>
+        <div className='cell-container'>
+          <Cell />
+          <Cell />
+          <Cell />
+          <Cell />
+          <Cell />
+          <Cell />
+          <Cell />
+        </div>
+
       </div>
+
     );
   }
 }

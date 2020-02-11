@@ -16,3 +16,13 @@
     align-items: center;
 
 }
+.cell {
+    border: 1px solid red;
+    padding: 10px;
+}
+.cell-container{
+    background: antiquewhite;
+    margin-left: 122px;
+    display: grid;
+    grid-template-columns: repeat(7, auto);
+}
