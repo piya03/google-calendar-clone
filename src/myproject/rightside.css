@@ -16,6 +16,16 @@
     align-items: center;
 
 }
+.date-day .num{
+    width: 40px;
+    height: 40px;
+    line-height: 2;
+
+}
+.date-day .num:hover{
+    background: #f1f3f4;
+    border-radius: 50%;
+}
 .cell {
     border: 1px solid red;
     padding: 10px;

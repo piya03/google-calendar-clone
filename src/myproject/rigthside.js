@@ -13,31 +13,31 @@ class RightSide extends React.Component {
           <div className='date-day'>
             <div>
               <div>SUN</div>
-              <div>1</div>
+              <div className='num'>1</div>
             </div>
             <div>
               <div>MON</div>
-              <div>2</div>
+              <div className='num'>2</div>
             </div>
             <div>
               <div>TUE</div>
-              <div>3</div>
+              <div  className='num'>3</div>
             </div>
             <div>
               <div>WED</div>
-              <div>4</div>
+              <div className='num'>4</div>
             </div>
             <div>
               <div>THU</div>
-              <div>5</div>
+              <div className='num'>5</div>
             </div>
             <div>
               <div>FRI</div>
-              <div>6</div>
+              <div className='num'>6</div>
             </div>
             <div>
               <div>SAT</div>
-              <div>7</div>
+              <div className='num'>7</div>
             </div>
 
           </div>

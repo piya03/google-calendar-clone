@@ -1,6 +1,5 @@
 .body-container{
     display: grid;
-    background-color: #f7f1f3;
     grid-template-columns: 25% 75%;
 }
 .leftside{
