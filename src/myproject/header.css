@@ -2,8 +2,8 @@
     display: flex;
     align-items: center;
     background: aliceblue;
-    padding-left: 10px;
-}
+    border-bottom: 1px solid #c6c3c3;
+    padding: 10px;}
 
 .logo-section {
     display: grid;
@@ -20,7 +20,9 @@
     font-size: 18px;
     align-items: center;
 }
-
+.select-section select:hover, .date-section .today:hover{
+    background-color: #f9f5f5;
+}
 .today {
     background: transparent;
     border: 1px solid blue;
